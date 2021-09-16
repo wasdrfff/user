@@ -1,12 +1,14 @@
 .firstBlockWrapper{
     background-image: url(./bgc.png);
     border:1 solid red;
-    height:135vh;
+    height:100%;
     width: 100%;
     color: white;
 }
 .firstBlockButtonsWrapper{
-    margin:600px 240px 0 300px;
+    margin-top:400px;
+    display:flex;
+    justify-content: center;
     
 }
 .firstBlockButton{
@@ -19,41 +21,43 @@
 .headerWrapper{
     display:flex;
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
 }
 .headerContact{
     color: #FFFFFF;
-    display:flex;
-    margin-left:auto;
-    margin-right: 271px;
-    margin-top: 40px;
+    padding-right: 40px;
+    
 }
 .headerPosition{
    color:white;
-   margin-right:auto;
-   margin-left:271px;
-   margin-top: 40px;
+   padding-left:40px;
+
 }
 .subHeaderWrapper{
+    width:100%;
     display:flex;
     justify-content: center;
     margin:24px 0;
 }
 .subHeaderItemCatalog{
-   padding: 24px 24px;
+   padding: 12px 12px;
    border:1px solid gray;
    border-left: 0;
+   width:25%;
 }
 .subHeaderItemDelivery{
-    padding: 24px 24px;
+    padding: 12px 12px;
     border:1px solid gray;
+    width: 25%;
 }
 .subHeaderItemCollections{
-    padding: 24px 24px;
+    padding: 12px 12px;
     border:1px solid gray;
+    width: 25%;
 }
 .subHeaderItemContacts{
-    padding: 24px 24px;
+    padding: 12px 12px;
     border:1px solid gray;
     border-right: 0;
+    width:25%
 }

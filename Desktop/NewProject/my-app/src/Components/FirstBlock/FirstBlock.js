@@ -2,17 +2,16 @@ import React from 'react'
 import './StyleFirstBlock.css'
 export const FirstBlock=()=>{
     return (
-        
         <div className='firstBlockWrapper'>
             <div className='headerWrapper'>
-                <p className='headerPosition'>Новокузнечный переулок 4/1</p>
-                <p className='headerContact'>8(812)123-45-67</p>
+                <span className='headerPosition'>Новокузнечный переулок 4/1</span>
+                <span className='headerContact'>8(812)123-45-67</span>
             </div>
             <div className='subHeaderWrapper'>
-                <p className='subHeaderItemCatalog'>Каталог</p>
-                <p className='subHeaderItemDelivery'>Доставка</p>
-                <p className='subHeaderItemCollections'>Коллекции</p>
-                <p className='subHeaderItemContacts'>Контакты</p>
+                <span className='subHeaderItemCatalog'> <a href="#catalog">Каталог</a></span>
+                <span className='subHeaderItemDelivery'>Доставка</span>
+                <span className='subHeaderItemCollections'><a href="#collection">Коллекции</a></span>
+                <span className='subHeaderItemContacts'>Контакты</span>
             </div>
             <div className='firstBlockButtonsWrapper'> 
                 <button className='firstBlockButton'>Винная карта</button>

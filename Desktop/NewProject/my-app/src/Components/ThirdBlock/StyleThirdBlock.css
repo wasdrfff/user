@@ -1,108 +1,137 @@
+.left-side{
+    display: flex;
+    flex-wrap:wrap;
+    width:50%;
+}
 .thirdBlockWrapper{
-    height: 145vh;
+    height: 100%;
     width: 100%;
     background-color:rgba(230, 227, 196, 1);
     padding-top:30px;
     display:flex;
     flex-direction: row;
 }
+
 .thirdBlockHeaderContent{
-    border-top:1px solid rgba(153, 132, 49, 1);
-    width: 142% ;
-    margin-left: 100px;
-    
-}
-.thirdBlockHeaderText{
+    width: 100% ;
     display:flex;
     justify-content: flex-start;
 }
+.lineForHeader{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:50px;
+    background-color:rgba(230, 227, 196, 1);
+}
+.line-header{
+    width: 90%;
+    border-color: rgba(153, 132, 49, 1);  
+}
+.thirdBlockHeaderText{
+    display:flex;
+    flex-direction: column;
+}
 .thirdBlockTag{
-    width:40%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
 }
 .thirdBlockFirstTagContent{
-    padding-left: 100px;
-    white-space: pre;
+    display:flex;
+    justify-content: flex-start;
 }
 .thirdBlockTwoTagContent{
-    margin-left:100px;
-    border-bottom: 1px solid rgba(40, 40, 40, 1);
-    padding-bottom: 30px;
-    width: 35%;
-    white-space: pre;
+    display: flex;
+    justify-content: flex-start;
 }
-
+.lineBlock{
+    display: flex;
+    flex-wrap: wrap;
+}
+.line{
+    width: 120px;
+    border-color: black;
+}
 .thirdBlockBodyContent{
-    width: 40%;
-    text-align: start;
-    margin-left: 99px;
+    padding-bottom: 10px;
+    display:flex;
+    justify-content: left;
 }
 .thirdBlockBodyContentCatalog{
     padding-top:20px;
-    width: 40%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 .bodyContentTable{
-    margin-left: 100px;
     border-collapse: collapse;
     width: 100%;
     
 }
 .cell{
-    padding-right: 10px;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding:0 12px;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
 
 }
 .cellDescription{
-    padding-left: 40px;
+    padding-left: 13px;
     border-bottom: 1px solid black;
     text-indent: -10px;
-    white-space: pre;
+    white-space:pre;
 }
 .description{
     font-weight: normal;
 }
 .bodyContentText{
-    width: 60%;
-    margin-left: 100px;
-    
-    
+    width: 100%;
+    display:flex;
+    justify-content: left;
 }
 .bodyContentButton{
-    padding-top:40px;
-    margin-left: 90px;
-    width: 60%;
-    border-bottom: 1px solid rgba(153, 132, 49, 1);
+    padding-top:30px;
+    width:100%;
+    display:flex;
+    justify-content:flex-start;
+    padding-left: 100px;
 }
 .contentButton{
     background-color: rgba(153, 132, 49, 1);
     width: 254px;
     height: 50px;
-    margin-bottom:24px;
-    
+    margin-bottom:12px;
+
     
 }
 .buttonText{
     color:white;
-    font-size: 15px;
+    font-size: 12px;
+    white-space: pre-wrap;
+}
+.right-side{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
 }
 .image{
     width:330px;
     height:300px;
-    padding-top: 150px;
-    padding-right: 120px;
+    padding-left:30px;
 }
 .image2{
     width:160px;
     height: 150px;
-    padding-right: 10px;
 }
 .image3{
     width:160px;
     height: 150px;
+    padding-left:10px;
 }
 .position{
-    margin-right: 120px;
-    margin-top: 20px;
+    padding-top:15px;
+    display:flex;
+    flex-direction: row;
+    padding-left: 30px;
 }
