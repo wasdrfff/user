@@ -11,7 +11,6 @@ export const ThirdBlock=()=>{
             <div className='left-side'>
                 <div className='thirdBlockHeaderContent'>   
                     <p id='collection' className='thirdBlockHeaderText'>Новинки коллекций</p>
-                    
                 </div>
                 <div className='thirdBlockTag'>
                     <h1 className='thirdBlockFirstTagContent'>Март 1980</h1>

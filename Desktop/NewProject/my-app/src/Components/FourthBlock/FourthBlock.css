@@ -1,0 +1,119 @@
+.fourthBlockWrapper{
+    background-color: rgba(40, 40, 40, 1);
+    height: 100%;
+    width: 100%;
+    padding-top: 40px;
+    color:white;
+    padding-bottom: 30px;
+}
+.fourthBlockBody{
+    border: 1px solid white;
+    border-top: 0 ;
+    display: flex;
+    flex-direction: column;
+    margin:0 90px;
+    flex-wrap: wrap;
+}
+.border{
+    width: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:43px;
+    margin-left:5px;
+    margin-right: 5px;
+}
+.fourthBlockTag{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid white;
+    margin-bottom: 40px
+}
+.fourthBlockContent{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fourthBlockBodyText{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 0 20px;
+    
+}
+.styleImage1{
+    width: 120px;
+    height: 160px;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;; 
+}
+.styleImage2{
+    width: 160px;
+    height: 100px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fourthBlockInputsPosition{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.handyInput{
+    background-color: rgba(40, 40, 40, 1);
+    border-left:0;
+    border-bottom: 1;
+    border-color: white;
+    border-right: 0;
+    border-top: 0;
+    width: 15%;
+}
+.handyInput::placeholder{
+    color:white;
+}
+.nameInput{
+    background-color: rgba(40, 40, 40, 1);
+    border-left:0;
+    border-bottom: 1;
+    border-color: white;
+    border-right: 0;
+    border-top: 0;
+    width: 15%;
+    margin-right: 10px;
+}
+.nameInput::placeholder{
+    color:white;
+}
+.positionInput{
+    background-color: rgba(40, 40, 40, 1);
+    border-left:0;
+    border-bottom: 1;
+    border-color: white;
+    border-right: 0;
+    border-top: 0;
+    width: 40%;
+}
+.positionInput::placeholder{
+    color:white;
+    text-align: center;
+}
+.fourthBlockButton{
+    margin: 30px 0;
+}
+.body-button{
+    background-color: rgba(40, 40, 40, 1);
+    color:white;
+    border-color: white;
+    border-width: 0.5px;
+    width: 50%;
+    padding:20px 0;
+}
