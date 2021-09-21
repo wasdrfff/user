@@ -1,0 +1,81 @@
+.fifthBlockWrapper{
+    background-color: rgba(153, 132, 49, 1);
+    padding-top: 20px;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.headerContent{
+    border-top: 1px solid white;
+    display:flex;
+    margin-top:20px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.textMain{
+    padding-right: 20px;
+}
+.textCatalog{
+    padding-right: 20px;
+}
+.textProviders{
+    padding-right: 20px;
+}
+.textCollections{
+    padding-right: 20px;
+}
+.textTasting{
+    padding-right: 20px;
+}
+.textNewCollections{
+    padding-right: 20px;
+}
+.textContacts{
+    padding-left: 20px;
+}
+.bodyContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.bodyContentUrl{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.bodyMain{
+    border-top:1px solid white;
+    border-right:1px solid white;
+    border-bottom: 1px  solid white;
+    padding:15px 15px;
+}
+.bodyNumbers{
+    border-top:1px solid white;
+    border-right:1px solid white;
+    border-bottom: 1px  solid white;
+    padding:15px 40px;
+}
+.images{
+    border-top:1px solid white;
+    border-right:1px solid white;
+    border-bottom: 1px  solid white;
+    padding:15px 40px;
+}
+.url{
+    border-top:1px solid white;
+    border-bottom: 1px  solid white;
+    padding:15px 15px;
+}
+.pictureVk{
+    padding:0 10px;
+}
+.textStyleUrl{
+    color:white;
+    text-decoration: none;
+}
